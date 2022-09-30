@@ -5,7 +5,6 @@ public class BasicInput {
         Scanner scnr = new Scanner(System.in);
 
 
-
         System.out.println("Enter integer:");
        int userInt = scnr.nextInt();
 
