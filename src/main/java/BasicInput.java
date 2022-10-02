@@ -17,9 +17,9 @@ public class BasicInput {
         System.out.println("Enter string: ");
        String userString = scnr.next();
 
-        System.out.println(userInt +" " +userDouble+ " " + userchar.charAt(0)+ " " + userString);
+        System.out.println(userInt +" " +userDouble+ " " + userchar+ " " + userString);
 
-        System.out.println(userString + " " + userchar.charAt(0) + " " +(int)userDouble + " " +userInt);
+        System.out.println(userString + " " + userchar + " " +(int)userDouble + " " +userInt);
 
         //return;
     }
