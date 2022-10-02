@@ -19,7 +19,9 @@ public class BasicInput {
 
         System.out.println(userInt +" " +userDouble+ " " + userchar+ " " + userString);
 
-        System.out.println(userString + " " + userchar + " " +(int)userDouble + " " +userInt);
+        System.out.println(userString + " " + userchar + " " +userDouble + " " +userInt);
+
+        System.out.println(userDouble + " cast to an integer is "+ (int)userDouble);
 
         //return;
     }
